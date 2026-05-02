@@ -47,3 +47,14 @@ Uploading any file without filetype checks can lead to hacks and it can take muc
 
 
 
+----------
+----------
+
+# PART B
+
+#### Q4
+ans. to
+
+- a. I will the allow both the pluging untill I test the plugin, if its breaking the UI or not. If its okay then i will allow only the Page builder plugin which may help the departments admin. But a heavy animation plugin may break the page loading time which may effect the users with low speed internet.
+
+- b. Installing page builder without on the website upon the existing builder , it may break the CSS of existing pages. For the animation plugin, it may make the website beutifull but it will also increase the page loading time , which i will effect the UX.
