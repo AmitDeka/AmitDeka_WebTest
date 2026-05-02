@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Success{% endblock %}
+
+{% block main %}
+<main class="container mt-5">
+    <div class="alert alert-success text-center">
+        <h2>Form Submitted Successfully!</h2>
+    </div>
+
+    <div class="card shadow-sm mx-auto my-4" style="max-width: 600px;">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Submission Details</h4>
+        </div>
+        <div class="card-body">
+            <table class="table table-hover">
+                <tbody>
+                    {% for label, value in data.items() %}
+                    <tr>
+                        <th scope="row" style="width: 40%">{{ label }}</th>
+                        <td>{{ value }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <div class="text-center mt-4">
+                <a href="{{ url_for('form_view') }}" class="btn btn-outline-secondary">Go Back</a>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
+
+
+
